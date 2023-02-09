@@ -1,0 +1,12 @@
+/* Regole generali */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
