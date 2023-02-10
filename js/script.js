@@ -20,8 +20,8 @@ function startGame() {
 }
 
 //Funzione per quando viene cliccata la cella
-function onClick(event) {
-    let cell = event.target; //cella cliccata
+function onClick() {
+    let cell = this; //cella cliccata
     console.log(cell); //stampo in console la cella cliccata
     cell.classList.toggle("bg-green"); //cambio la classe alla cella cliccata
 }
